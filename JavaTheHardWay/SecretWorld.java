@@ -8,14 +8,16 @@ import java.util.Scanner;
       System.out.print( "What's the secret word? " );
       guess = keyboard.next();
 
-      if ( guess.equals(secret) ) {
+      if ( guess.equals(secret) )
+      {
         System.out.println( "That's correct!" );
       }
       else {
         System.out.println( "No, the secret word isn't \"" + guess + "\"." );
       }
 
-      if ( guess == secret ) {
+      if ( guess == secret )
+      {
         System.out.println( "(This will never ever show, no matter what.)" );
       }
     }
